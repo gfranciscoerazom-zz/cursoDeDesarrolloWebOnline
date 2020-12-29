@@ -22,13 +22,15 @@
                     <!-- Elemento de una lista -->
                     <li>
                         <!-- Ancla o enlace -->
-                        <a href="#">Portafolio</a>
+                        <!-- Pueden usar tanto rutas absolutas como relativas (con #id es para navegar a un id) -->
+                        <a href="#portafolio">Portafolio</a>
+                        <!-- <a href="./portafolio/index.html">Portafolio</a> -->
                     </li>
                     <li>
-                        <a href="#">Experiencia</a>
+                        <a href="#eventos">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#">Trabajemos juntos</a>
+                        <a href="#contacto">Trabajemos juntos</a>
                     </li>
                 </ul>
             </nav>
@@ -45,7 +47,7 @@
                 <img src="./images/hero.jpg" alt="Imágen principal del sitio" width="500" height="300">
             </figure>
         </section>
-        <section>
+        <section id="portafolio">
             <h2>Portafolio (Proyectos Destacados)</h2>
             <!-- Artículo -->
             <article>
@@ -59,7 +61,7 @@
                 </figure>
             </article>
         </section>
-        <section>
+        <section id="eventos">
             <h2>Más sobre mi experiencia</h2>
             <article>
                 <figure>
@@ -67,10 +69,10 @@
                 </figure>
                     <h3>PlatziConf México 2018</h3>
                     <p>El evento más grande sobre gente que quiere aprender más de internet. En este </p>
-                    <a href="">Ver Plática</a>
+                    <a href="https://www.youtube.com/watch?v=lF4rqKyylvY" target="_blank">Ver Plática</a>
             </article>
         </section>
-        <section>
+        <section id="contacto">
             <!-- Para crear un formulario -->
             <form action="/subscripcion/">
                 <h3>¿Creamos algo juntos?</h3>
