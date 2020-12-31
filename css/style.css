@@ -1,0 +1,24 @@
+/* Selector de etiqueta */
+/* header {
+    
+} */
+
+/* Selector descendente */
+/* body header div nav ul li a {
+
+} */
+
+/* Selector de clase */
+/* .link {
+    
+} */
+
+/* Selector de ID */
+/* #portafolio {
+    
+} */
+
+header {
+    background: pink;
+    color: red;
+}
